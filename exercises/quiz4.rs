@@ -5,9 +5,7 @@
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
 
-macro_rules! my_macro {
-    ($s:expr) => ("Hello ".to_owned() + $s)
-}
+// I AM NOT DONE
 
 #[cfg(test)]
 mod tests {

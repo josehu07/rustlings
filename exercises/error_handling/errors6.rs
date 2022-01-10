@@ -8,6 +8,8 @@
 
 // Make these tests pass! Execute `rustlings hint errors6` for hints :)
 
+// I AM NOT DONE
+
 use std::num::ParseIntError;
 
 // This is a custom error type that we will be using in `parse_pos_nonzero()`.
@@ -21,17 +23,15 @@ impl ParsePosNonzeroError {
     fn from_creation(err: CreationError) -> ParsePosNonzeroError {
         ParsePosNonzeroError::Creation(err)
     }
-    
-    fn from_parse_int(err: ParseIntError) -> ParsePosNonzeroError {
-        ParsePosNonzeroError::ParseInt(err)
-    }
+    // TODO: add another error conversion function here.
 }
 
 fn parse_pos_nonzero(s: &str)
     -> Result<PositiveNonzeroInteger, ParsePosNonzeroError>
 {
-    let x: i64 = s.parse().map_err(ParsePosNonzeroError::from_parse_int)?;
-
+    // TODO: change this to return an appropriate error instead of panicking
+    // when `parse()` returns an error.
+    let x: i64 = s.parse().unwrap();
     PositiveNonzeroInteger::new(x)
         .map_err(ParsePosNonzeroError::from_creation)
 }
