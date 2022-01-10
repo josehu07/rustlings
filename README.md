@@ -2,6 +2,10 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-116-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+This is Guanzhou's fork of `rustlings`. Checkout the `josehu-solution` branch to see my solution to the exercises so far.
+
+Progress: all 81 exercises up to Jan 7, 2022.
+
 # rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
