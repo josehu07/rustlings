@@ -1,6 +1,7 @@
-This is Guanzhou's fork of `rustlings`. Checkout the `josehu-solution` branch to see my solution to the exercises so far.
+This is Guanzhou's fork of `rustlings`.
 
-Progress: all 81 exercises up to Jan 7, 2022.
+* Checkout the `josehu-solution` branch to see my solution to the exercises so far
+* Current progress: all 81 exercises up to Jan 7, 2022
 
 
 # rustlings 🦀❤️
