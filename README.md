@@ -1,7 +1,7 @@
 This is Guanzhou's fork of `rustlings`.
 
 * Checkout the `josehu-solution` branch to see my solution to the exercises so far
-* Current progress: all 81 exercises up to Jan 7, 2022
+* Current progress: all 84 exercises up to May 15, 2022
 * Also see [Learning Rust with entirely too many linked lists](https://rust-unofficial.github.io/too-many-lists/)
 
 
